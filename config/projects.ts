@@ -40,12 +40,17 @@ export const Projects: ProjectInterface[] = [
     techStack: ["Laravel", "PHP", "PostgreSQL", "React", "Tailwind CSS", "Docker"],
     startDate: new Date("2022-06-01"),
     endDate: new Date("2023-12-31"),
-    companyLogoImg: "/projects/portfolio/logo.png",
+    companyLogoImg: "/projects/edlr/logo.png",
     pagesInfoArr: [
       {
-        title: "Parrainage & Suivi",
-        description: "Association enfant–parrain international avec historique et suivi scolaire.",
-        imgArr: ["/profile-img.jpg"],
+        title: "Parrainage & Suivi Scolaire",
+        description: "Association enfant–parrain international avec historique et suivi scolaire complet.",
+        imgArr: ["/projects/edlr/logo.png", "/profile-img.jpg"],
+      },
+      {
+        title: "Messages Automatisés",
+        description: "Notifications déclenchées automatiquement selon les résultats scolaires.",
+        imgArr: ["/images/n8n/n8n1.png"],
       },
     ],
     descriptionDetails: {
@@ -73,12 +78,17 @@ export const Projects: ProjectInterface[] = [
     techStack: ["Laravel", "React", "Next.js", "Tailwind CSS", "PostgreSQL", "Python", "Docker"],
     startDate: new Date("2023-01-01"),
     endDate: new Date("2025-09-01"),
-    companyLogoImg: "/projects/convot/logo.png",
+    companyLogoImg: "/projects/reference-mg/logo.png",
     pagesInfoArr: [
       {
-        title: "Apps Métier & Workflows",
-        description: "Laravel/React pour structurer les opérations + n8n/LangChain pour automatiser.",
-        imgArr: ["/logo.png"],
+        title: "Workflows n8n",
+        description: "Orchestration emails, compta et processus métier avec n8n et LangChain.",
+        imgArr: ["/images/n8n/n8n1.png", "/images/n8n/n8n2.png"],
+      },
+      {
+        title: "Apps Métier Laravel/React",
+        description: "Applications métier structurant les opérations et base fiable pour l'automatisation.",
+        imgArr: ["/projects/reference-mg/logo.png"],
       },
     ],
     descriptionDetails: {
@@ -106,18 +116,43 @@ export const Projects: ProjectInterface[] = [
     techStack: ["React", "Next.js", "PostgreSQL", "Tailwind CSS", "Docker", "Typescript"],
     startDate: new Date("2023-06-01"),
     endDate: new Date("2024-12-31"),
-    companyLogoImg: "/projects/niya/logo.png",
+    companyLogoImg: "/projects/gestion/logo.png",
     pagesInfoArr: [
       {
-        title: "POS & FIFO",
-        description: "Ventes multi-modes et stock FIFO par variantes (taille/couleur/pointure).",
-        imgArr: ["/logo.png"],
+        title: "POS & Ventes Multi-Modes",
+        description: "Vente rapide, crédit avec échéancier, réservations avec acomptes — 12 écrans en production.",
+        imgArr: [
+          "/images/express_sale/express_sale1.png",
+          "/images/express_sale/express_sale2.png",
+          "/images/express_sale/express_sale3.png",
+          "/images/express_sale/express_sale4.png",
+        ],
+      },
+      {
+        title: "Stock FIFO & Comptabilité",
+        description: "Gestion par variantes (taille/couleur/pointure), marges automatiques et rapprochement bancaire.",
+        imgArr: [
+          "/images/express_sale/express_sale5.png",
+          "/images/express_sale/express_sale6.png",
+          "/images/express_sale/express_sale7.png",
+          "/images/express_sale/express_sale8.png",
+        ],
+      },
+      {
+        title: "Multi-devises & Dashboards",
+        description: "EUR, USD, Baht, Yuan/Ariary, trésorerie multi-comptes et analytics.",
+        imgArr: [
+          "/images/express_sale/express_sale9.png",
+          "/images/express_sale/express_sale10.png",
+          "/images/express_sale/express_sale11.png",
+          "/images/express_sale/express_sale12.png",
+        ],
       },
     ],
     descriptionDetails: {
       paragraphs: [
         "Solution professionnelle tout-en-un déployée en production pour une boutique: gestion des ventes rapides, crédit, réservations, stock FIFO et comptabilité automatisée.",
-        "La solution calcule coûts, marges et rapprochements bancaires, gère le multi-devises et fournit des tableaux de bord décisionnels.",
+        "La solution calcule coûts, marges et rapprochements bancaires, gère le multi-devises et fournit des tableaux de bord décisionnels. 13+ écrans, 6 modules en production.",
       ],
       bullets: [
         "Ventes multi-modes: rapide, crédit avec échéancier, réservations avec acomptes.",
@@ -139,12 +174,12 @@ export const Projects: ProjectInterface[] = [
     techStack: ["Laravel", "Next.js", "React", "FastAPI", "PostgreSQL", "Tailwind CSS", "Docker"],
     startDate: new Date("2024-01-01"),
     endDate: new Date("2025-09-01"),
-    companyLogoImg: "/projects/portfolio/logo.png",
+    companyLogoImg: "/projects/taniko/logo.png",
     pagesInfoArr: [
       {
         title: "Multi-tenant & IA",
-        description: "OAuth Sanctum centralisé + proxy FastAPI pour agents IA.",
-        imgArr: ["/logo.png"],
+        description: "OAuth Sanctum centralisé + proxy FastAPI pour agents IA, réseau WordPress.",
+        imgArr: ["/projects/taniko/logo.png", "/logo.png"],
       },
     ],
     descriptionDetails: {
