@@ -10,9 +10,25 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Abu Said - Software Developer",
+  title: "Christian Herimanantsoa — AI Automation & Software Developer",
   description:
-    "This is the portfolio of Abu Said. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "AI Automation & Software Developer (Laravel, React, n8n, LangChain) — Reference.mg, Enfants De La Rue (ONG) parrainage scolaire, gestion comptable et automatisation métier. Basé à Antananarivo, disponible freelance.",
+  keywords: ["AI Automation", "n8n", "LangChain", "Laravel", "React", "Software Developer", "Reference.mg", "Enfants De La Rue", "Christian Herimanantsoa", "Madagascar"],
+  authors: [{ name: "Christian Herimanantsoa", url: "https://christian.manidina.me" }],
+  openGraph: {
+    title: "Christian Herimanantsoa — AI Automation & Software Developer",
+    description: "Laravel/React & n8n/LangChain — automatisation emails, comptabilité et processus métier. Reference.mg & EDLR.",
+    url: "https://christian.manidina.me",
+    siteName: "Christian Herimanantsoa",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Christian Herimanantsoa — AI Automation & Software Developer",
+    description: "Laravel/React & n8n/LangChain pour entreprises et ONG.",
+  },
+  metadataBase: new URL("https://christian.manidina.me"),
 };
 
 export default function RootLayout({ children }) {

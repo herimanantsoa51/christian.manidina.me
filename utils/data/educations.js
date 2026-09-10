@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Mention Informatique et Technologie (MIT)",
+    duration: "2022 - Present",
+    institution: "Université d'Antananarivo — Faculté des Sciences",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "AI Automation & n8n Workflows",
+    duration: "2023 - Present",
+    institution: "Self-learning — LangChain, RAG, Agents IA, Docker/Dokku",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "Software Development — Laravel / React",
+    duration: "2021 - Present",
+    institution: "Reference.mg, Manidina & projets freelance",
   }
 ]
